@@ -6,6 +6,10 @@
     color: aliceblue;
 }
 
+span{
+    color: yellow;
+}
+
 .container{
     background-position: center;
     background-image: url(https://trymata.com/wp-content/uploads/2014/11/concert_crowd.jpg);
@@ -22,7 +26,8 @@
     text-align: center;
     width: 100px;
     height:100px ;
-    border: 2px solid rgb(255, 0, 0);
+    transition:all .07s;
+    border: 2px solid rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.664);
     border-radius: 8px;
      padding: 10px;
@@ -30,10 +35,15 @@
  }
 .box:hover{
     cursor: pointer;
-    border: 2px solid rgb(0, 0, 0);
-    background-color: rgba(255, 0, 0, 0.664);
+    border: 2px solid rgb(0, 0, 0);ss
+    background-color: rgba(238, 255, 0, 0.411);
     border-radius: 8px;
     padding: 10px;
     margin: 10px;
 }
 
+.playing{
+    transform: scale(1.1);
+    border-color: yellow;
+    box-shadow: 0 0 10px rgb(255, 208, 0)
+}
