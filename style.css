@@ -35,8 +35,8 @@ span{
  }
 .box:hover{
     cursor: pointer;
-    border: 2px solid rgb(0, 0, 0);ss
-    background-color: rgba(238, 255, 0, 0.411);
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgba(238, 255, 0, 0.664);
     border-radius: 8px;
     padding: 10px;
     margin: 10px;
@@ -45,5 +45,5 @@ span{
 .playing{
     transform: scale(1.1);
     border-color: yellow;
-    box-shadow: 0 0 10px rgb(255, 208, 0)
+    box-shadow: 0 0 10px red
 }
